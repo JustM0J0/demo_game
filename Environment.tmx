@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.3" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="128" tileheight="128" infinite="0" nextlayerid="5" nextobjectid="1">
+ <tileset firstgid="1" name="GroundTiles" tilewidth="128" tileheight="128" tilecount="9" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="boxCrate.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="slice03_03.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="slice19_19.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="slice20_20.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="slice23_23.png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="128" source="slice24_24.png"/>
+  </tile>
+  <tile id="6">
+   <image width="128" height="128" source="slice33_33.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="128" source="cloud2.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="coin_01.png"/>
+  </tile>
+ </tileset>
+ <layer id="2" name="envir" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztz7kNADAIA0DK7D8xIyTikVLc9dgmAgAAAAAAAAAA3p3B+1tWt6uSOd258UPFLztgUwIjHwBB
+  </data>
+ </layer>
+ <layer id="3" name="enemyBoxes" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztyKEBAAAIwKD5/9PeYDNApAAAAAAAAAAAAPhmjk8tKWAAAw==
+  </data>
+ </layer>
+ <layer id="4" name="coins" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt0LEJADAMA7Cs/v/hXtAhQ2kCEni3XQUAAAAAAAAAwBT5XaCh23XTtpdSvtgklzDTAT0jAGQ=
+  </data>
+ </layer>
+ <layer id="1" name="ground" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt0EsKgDAMRdHUX/e/4zagQwcmAR/lHsjQmFszAAAAAAAAAACAtbS/DyhChxY6tNChZYWOZnQooUNLpKOZXv/bPV9v3eccVUcFVL3rOedK7si8hUqHN/R7Ii0qHf59t3iLN/hbbMl5/l+xI7LLOwbWWwEG
+  </data>
+ </layer>
+</map>
