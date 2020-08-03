@@ -1,4 +1,4 @@
-#This is just a demo. Will seriously start working on it after a couple of weeks. Uploaded on 3rd May, 2020. All rights not reserved.
+#This is just a demo. Will seriously start working on it after a couple of weeks. Uploaded on 3rd August, 2020. All rights not reserved.
 
 
 import arcade
@@ -131,7 +131,7 @@ class MyGame(arcade.Window):
         bullet = arcade.Sprite("laserBlue01.png", 0.5 )
         bullet.center_x = self.player.center_x + 30
         bullet.center_y = self.player.center_y
-        bullet.change_x = BULLET_SPEED
+        bullet.change_x = BULLET_SPEED  #Need to fix so that the bullet shoots in the direction where the player is facing, took me hours but couldn't fix lmao
         if key == arcade.key.RIGHT:
             self.player.change_x = MOVEMENT_SPEED
         elif key == arcade.key.LEFT:
