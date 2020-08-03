@@ -1,4 +1,4 @@
-#This is just a demo. Will seriously start working on it after a couple of weeks. Uploaded on 3rd August, 2020. All rights not reserved.
+#This is just a demo. Will seriously start working on it after a couple of weeks (most likely won't). Uploaded on 3rd August, 2020. All rights not reserved.
 
 
 import arcade
