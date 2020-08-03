@@ -1,5 +1,5 @@
 #This is just a demo. Will seriously start working on it after a couple of weeks (most likely won't). Uploaded on 3rd August, 2020. All rights not reserved.
-
+#Whenever you see the 'Read the documentation', understand that I didn't understand it myself XD
 
 import arcade
 
